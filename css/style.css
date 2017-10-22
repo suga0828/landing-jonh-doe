@@ -1,0 +1,477 @@
+/*Personal style*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
+
+
+/* Paleta de Colores */
+/*  #CD2742
+    #BE2B4E
+    #B2B0B2
+    #F4F2F4
+    #362173
+
+    #41313A
+    #C09476
+    #D9C7BC
+    #A57965
+    #75504F
+
+    #645559
+    #9c8978
+
+*/
+
+html, body, h1, h2, h3, h4, h5, h6, div, section, main, header, footer {
+      padding: 0;
+      border: 0;
+      margin: 0;
+      font-family:'Open Sans Condensed', sans-serif;
+    }
+
+body{
+    overflow-x: hidden;
+    color: whitesmoke;
+}
+p{
+    font-family:'Open Sans Condensed', sans-serif;
+    letter-spacing: .1em;
+    font-size: 1.4em;
+}
+
+p > a {
+    letter-spacing: -1px;
+}
+
+a{
+    font-family: '', sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: '', sans-serif;
+}
+
+section {
+    padding: 35px 0px;
+}
+
+.color-1 {
+    background-color: #A57965;
+}
+
+.color-2 {
+    background-color: #75504F;
+}
+
+.text-color-1 {
+    color: #A57965;
+}
+
+.text-color-2{
+    color: #75504F;
+}
+
+#start {
+    background-image: url(../img/header_bg.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    width: 100%; 
+    height: 100vh !important;
+    z-index: 0; 
+
+    background-position: ;
+    background-size: 100% 100%;
+}
+
+.landing-title, .landing-subtitle {
+    text-align: center;
+    color: whitesmoke;
+    text-transform: uppercase;
+}
+
+.landing-title {
+    letter-spacing: -4px;
+}
+
+.landing-subtitle {
+    letter-spacing: 1px;
+}
+
+.menu-container {
+    position: fixed;
+    left: 30px;
+    top: 20px;
+    z-index: 2;
+    -webkit-transition: all 150ms linear;
+    -moz-transition: all 150ms linear;
+    -ms-transition: all 150ms linear;
+    transition: all 150ms linear;
+}
+
+.side-nav {
+    width: 325px;
+}
+
+.side-nav .userView .circle {
+    height: 170px;
+    width: 170px;
+}
+
+.side-nav > li > a > b {
+    padding: 10px 0px 5px 0px;
+}
+
+.light {
+    background-color: #9c8978 !important;
+}
+
+#menu-main {
+    padding-top: 0px;
+}
+
+.userView {
+    background: url(../img/nav-bg.jpg);
+    margin-bottom: 0px;
+}
+
+.menu-close {
+    position: absolute;
+    right: 20px;
+    top: -10px;
+    height: 0px;
+    z-index: 0;
+}
+
+#close {
+    position: absolute;
+    left: -30px;
+    top: 290px;
+    z-index: 2;
+    -webkit-transition: all 150ms linear;
+    -moz-transition: all 150ms linear;
+    -ms-transition: all 150ms linear;
+    transition: all 150ms linear;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.user-name, .user-mail {
+    text-align: center;
+}
+
+.user-name {
+    padding: 10px 0px 5px 0px;
+}
+
+.user-mail {
+    padding: 5px 0px 10px 0px
+}
+
+.mailto {
+    margin: 10px 0px;
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: .8em;
+
+}
+
+.menu-social-network {
+    padding: 20px 0px;
+}
+
+.social {
+    text-align: center;
+    padding: 5px 0px;
+}
+
+.social > span {
+    margin: 0px 0px 10px 0px;
+    font-size: 1.2em;
+}
+
+.menu-footer {
+    width: 100%;
+    position: fixed;
+    bottom: 65px
+}
+
+.btn-start {
+    position: absolute;
+    bottom: -5px;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+}
+
+.animated {
+    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 0s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: ;
+    overflow: hidden;
+}
+
+.col-progress {
+    padding-top: 100px;
+}
+
+.single-progress-bar .progress {
+height: 1px;
+margin-bottom: 20px;
+overflow: hidden;
+background-color: rgba(0,0,0,.3);
+border-radius: 0px;
+}
+
+.single-progress-bar .progress-bar {
+background-color: whitesmoke;
+}
+
+.single-progress-bar h4{
+    color: whitesmoke;
+    font-size: 1.3em;
+}
+
+.parallax-container {
+    height: 16.5em;
+    background: rgba(150,150,150,.8);
+    }
+
+.imac {
+    position: relative;
+    margin-top: -350px;
+    /*350px*/ 
+}
+
+.imac img {
+    width: 100%;
+}
+
+.img-portafolio{
+    margin-right: 3px;
+    position: relative;
+    transition: all 1s;
+}
+.img-portafolio img{
+    width: 100%;
+
+}
+.img-portafolio:hover div.img-overlay{
+    opacity: 1;
+}
+
+.img-overlay{
+position: absolute;
+width: 100%;
+height: 98%;
+background: rgba(165,121,101,0.8);
+left: 0;
+top: 0;
+opacity: 0;
+    transition: all 1s;
+
+}
+.img-overlay a{
+position: absolute;
+top: 20px;
+right: 20px;
+color: #fff;
+text-decoration: none;
+text-transform: uppercase;  
+}
+.img-overlay h2{
+position: absolute;
+bottom: 28px;
+left: 20px;
+font-size: 25px;
+color: #fff;
+text-transform: uppercase;
+letter-spacing: 2px;    
+}
+.img-overlay h4{
+position: absolute;
+bottom: 11px;
+left: 20px;
+color: #fff;
+font-size: 14px;
+text-transform: uppercase;  
+}
+.no-padding{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.justify {
+    text-align: justify;
+}
+
+
+.left-border-decoration {
+    transition: all 400ms ease;
+    border-left: 5px solid transparent;
+}
+
+.left-border-decoration:hover {
+    border-left: 5px solid whitesmoke;
+}
+
+.list-inline {
+  padding-left: 0;
+  margin-left: 0px;
+  list-style: none;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.list-inline > li > a {
+    padding: 0px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: oblique;
+}
+
+.centrar-vertical {
+    position: absolute;
+    width: 100%;
+    top: 38vh;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.text-white {
+    color: whitesmoke;
+}
+
+.text-shadow {
+    text-shadow: 4px 4px 4px #645050;
+}
+
+.margin10 {
+    margin: 10px 0px;
+}
+
+.form:hover {
+    background: rgba(245,245,245,.1);    
+}
+
+
+.rotate {
+    animation-duration: 2s;
+}
+
+.rotate90:hover {
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+}
+
+.rotate180:hover {
+    -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+}
+
+@media (max-width: 576px) {
+    .page-footer, .ssnn {
+        text-align: center;
+    }
+    
+}
+
+/*-----Forms styles------*/
+
+/* label color */
+   .input-field label {
+     color: whitesmoke;
+   }
+
+
+/* label focus color */
+input:not([type]):focus:not([readonly]),
+input[type=text]:not(.browser-default):focus:not([readonly]),
+input[type=password]:not(.browser-default):focus:not([readonly]),
+input[type=email]:not(.browser-default):focus:not([readonly]),
+input[type=url]:not(.browser-default):focus:not([readonly]),
+input[type=time]:not(.browser-default):focus:not([readonly]),
+input[type=date]:not(.browser-default):focus:not([readonly]),
+input[type=datetime]:not(.browser-default):focus:not([readonly]),
+input[type=datetime-local]:not(.browser-default):focus:not([readonly]),
+input[type=tel]:not(.browser-default):focus:not([readonly]),
+input[type=number]:not(.browser-default):focus:not([readonly]),
+input[type=search]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid darkgrey;
+  -webkit-box-shadow: 0 1px 0 0 darkgrey;
+          box-shadow: 0 1px 0 0 darkgrey;
+}
+
+ /* label underline focus color */
+input:not([type]):focus:not([readonly]) + label,
+input[type=text]:not(.browser-default):focus:not([readonly]) + label,
+input[type=password]:not(.browser-default):focus:not([readonly]) + label,
+input[type=email]:not(.browser-default):focus:not([readonly]) + label,
+input[type=url]:not(.browser-default):focus:not([readonly]) + label,
+input[type=time]:not(.browser-default):focus:not([readonly]) + label,
+input[type=date]:not(.browser-default):focus:not([readonly]) + label,
+input[type=datetime]:not(.browser-default):focus:not([readonly]) + label,
+input[type=datetime-local]:not(.browser-default):focus:not([readonly]) + label,
+input[type=tel]:not(.browser-default):focus:not([readonly]) + label,
+input[type=number]:not(.browser-default):focus:not([readonly]) + label,
+input[type=search]:not(.browser-default):focus:not([readonly]) + label,
+textarea.materialize-textarea:focus:not([readonly]) + label {
+  color: darkgrey;
+}
+
+/* icon prefix focus color */
+   .input-field .prefix.active {
+     color: darkgrey;
+   }
+   
+
+/*----- -----*/
+
+
+.social > ul > li > a {
+    color: #A57965;
+}
+
+.social > ul > li > a:hover {
+    color: whitesmoke;
+}
+
+.ssnn > ul > li > a:hover {
+    color:white;
+}
+
+.fa-codepen:hover, .fa-github:hover {
+    color: black;
+}
+
+.fa-youtube:hover {
+    color: #FF0000;
+}
+
+.fa-gitlab:hover {
+    color:orange;
+}

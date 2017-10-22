@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta name="author" content="Alexander Sandoval">
+	<meta name="description" content="Development and web design">
+	<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+	<title>Front-End Developer | Alexander Sandoval</title>
+
+	<!--Thanks to Flaticon for this-->
+	<link rel="icon" href="img/icon.png">
+	
+	<!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+	<!-- Animate 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	-->
+	<link rel="stylesheet" href="css/animate.css">
+
+	<!-- Fontawesome
+	<link rel="stylesheet" href="https://use.fontawesome.com/998ecac901.css">
+	-->
+	<link rel="stylesheet" href="css/font-awesome.css">
+
+	<!-- Own style -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+	<header>
+
+		<!-- Preloader -->
+		<div class="page-loader">
+		  <div class="preloader-wrapper big active loader centrar-loader" >
+		    <div class="spinner-layer spinner-blue-only">
+		      <div class="circle-clipper left">
+		        <div class="circle"></div>
+		      </div><div class="gap-patch">
+		        <div class="circle"></div>
+		      </div><div class="circle-clipper right">
+		        <div class="circle"></div>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+		<div class="menu-container">
+	  		<button href="#" data-activates="menu-main" class="button-collapse btn-floating btn-large waves-effect waves-light light rotate rotate180">
+	  			<i class="material-icons">menu</i>
+	  		</button>
+  		</div>
+
+  		<ul id="menu-main" class="side-nav color-1">
+	    	<li id="info-page" class="z-depth-2">
+	    		<div class="userView" style="margin-bottom: 0px;">
+	    			<a href="#" class="close">
+	    				<img src="img/me.jpg" alt="" class="circle center-block">
+	   				</a>
+  					<h5 class="user-name">
+  						<span class="text-uppercase text-shadow bold">Alexander Sandoval</span>
+  					</h5>
+  					<h6 class="user-mail">
+  						<a href="mailto:alexander.sf0828@gmail.com">
+  							<span class="text-shadow bold mailto">alexander.sf0828@gmail.com</span>
+  						</a>
+  					</h6>
+  				</div>
+	   		</li>
+
+	    	<li class="left-border-decoration" style="">
+	    		<a href="#about" class="close white-text text-uppercase"><b>about me</b></a>
+			</li>
+			<li class="left-border-decoration">
+				<a href="#portafolio" class="close white-text text-uppercase"><b>protafolio</b></a>
+			</li>
+
+	    	<div class="menu-close">
+	    		<button id="close" class="close btn-floating btn-small waves-effect waves-light light rotate rotate90">
+	    			<i class="material-icons">close</i>
+				</button>
+	    	</div>
+
+	    	<div class="menu-social-network color-2 z-depth-2">
+	    		<div class="social">
+		    		<span class="text-uppercase text-shadow bold">Social Network</span>
+		    		<ul class="list-inline">
+		    			<li>
+							<a class="text-color-1">
+								<span class="fa-stack fa-2x">
+									<i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
+									<i class="fa fa-codepen fa-stack-1x fa-inverse" aria-hidden="true"></i>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a class="text-color-1">
+								<span class="fa-stack fa-2x">
+									<i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
+									<i class="fa fa-youtube fa-stack-1x fa-inverse" aria-hidden="true"></i>
+								</span>
+							</a>
+						</li>
+		    			<li>
+			   				<a class="text-color-1">
+			   					<span class="fa-stack fa-2x">
+			   						<i class="fa fa-circle fa-stack-2x"  aria-hidden="true"></i>
+			   						<i class="fa fa-github fa-stack-1x fa-inverse" aria-hidden="true"></i>
+			   					</span>
+			   				</a>
+		    			</li>
+		    			<li>
+							<a class="text-color-1">
+								<span class="fa-stack fa-2x">
+									<i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
+									<i class="fa fa-gitlab fa-stack-1x fa-inverse" aria-hidden="true"></i>
+								</span>
+							</a>
+						</li>
+		    		</ul>
+	    		</div>
+	   		</div>
+	   		
+	   		<div class="menu-footer center-align">
+	   				©Copyright 2017 <b class="text-white">Alexander Sandoval</b>
+	   		</div>
+	  	</ul>
+
+	</header>
+
+
+	<main>
+
+		<section id="start" class="scrollspy">
+			<div class="centrar-vertical landing-title">
+				<h1 class="center-align text-uppercase text-shadow">alexander sandoval</h1>
+				<h3 class="center-align text-uppercase text-shadow">front-end development</h3>
+			</div>
+			<div class="btn-start center-align animated zoomIn jump">
+				<a href="#about" class=""><img src="img/start.png" alt=""></a>
+			</div>
+		</section>
+
+		<section id="about" class="color-2 scrollspy">
+			<div class="container">
+				<div class="row">
+					<div class="landing-subtitle animated slideInUp">
+						<h4 class="text-shadow">about me</h4>
+						<img src="img/shape.png" alt="">
+					</div>				
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col s12 m4 col-progress animated slideInLeft" style="padding-top: 2.5em;">
+						<div class="single-progress-bar">
+							<h4 class="text-uppercase">develoment - 80%</h4>
+							<div class="progress">
+								<div class="progress-bar determinate" style="width: 80%;"></div>
+							</div>
+						</div>
+						<div class="single-progress-bar">
+							<h4 class="text-uppercase">design - 65%</h4>
+							<div class="progress">
+								<div class="progress-bar determinate" style="width: 65%;"></div>
+							</div>
+						</div>
+						<div class="single-progress-bar">
+							<h4 class="text-uppercase">Back-End - 40%</h4>
+							<div class="progress">
+								<div class="progress-bar determinate" style="width: 40%;"></div>
+							</div>
+						</div>
+					</div>
+					<div class="col s12 offset-m1 m7 animated slideInRight">
+						<p class="justify" style="margin: 0;">
+							I'm a junior web development from Caracas, Venezuela. I has one (01) year of experience in development and web design. I taked some courses in <a class="bold" target="_blank" href="https://escuelaweb.net/">Escuela Web</a> and finished the <a target="_blank" class="italic" href="info/frontend-EscuelaWeb.pdf">'Curso de Diseño Web HTML5 y CSS3 desde cero'</a> and <a target="_blank" class="italic" href="info/Backend-EscuelaWeb.pdf">'Curso PHP | Desarrollo Web con Laravel'</a>. These are introduction courses in front-end and back-end development, respectively, but it has usefull for me because i learned fews of the most recent technicals and tools in the environment of web development.
+						</p>
+					</div>
+				</div>
+			</div>
+
+		
+			
+
+		
+		</section>
+
+		<div class="parallax-container">
+			<div class="parallax">
+				<img src="img/header_bg(3).jpeg" alt="">
+			</div>
+		</div>
+		<div class="container">
+			<div class="row" style="margin: 0px;height: 0px;">
+				<div class="col s12 m7">
+					<div class="imac">
+						<img src="img/device.png" alt="" width="500px" class="responsive-img">
+					</div>
+				</div>
+			</div>
+		</div>
+		
+
+
+
+		<section id="portafolio" class="color-2 scrollspy">
+			<div class="container">
+				<div class="row">
+					<div class="landing-subtitle">
+						<h4 class="text-shadow">latest work</h4>
+						<img src="img/shape.png" alt="">
+					</div>
+				</div>
+			</div>
+
+
+
+	 		<div class="container-fluid">
+	            <div class="row">
+	                <div class="col s12 m12 l6 xl4 no-padding">
+	                    <div class="img-portafolio">
+	                        <img src="img/start-bg.png" alt="">
+	                        <div class="img-overlay">
+	                            <a href="">View Full Project</a>
+	                            <h2>web page</h2>
+	                            <h4>front end design</h4>
+	                        </div>
+	                    </div>
+	                </div>
+	                <div class="col s12 m12 l6 xl4 no-padding">
+	                    <div class="img-portafolio">
+	                        <img src="img/start-bg.png" alt="">
+	                        <div class="img-overlay">
+	                            <a href="">View Full Project</a>
+	                            <h2>web page</h2>
+	                            <h4>front end design</h4>
+	                        </div>
+	                    </div>
+	                </div>
+	                <div class="col s12 m12 l6 xl4 no-padding">
+	                    <div class="img-portafolio">
+	                        <img src="img/start-bg.png" alt="">
+	                        <div class="img-overlay">
+	                            <a href="">View Full Project</a>
+	                            <h2>web page</h2>
+	                            <h4>front end design</h4>
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>
+	        </div>    
+
+		</section>
+
+		<section id="contact" class="color-1 scrollspy">
+			<div class="container">
+				<div class="row">
+					<div class="col s12">
+						<div class="landing-subtitle">
+							<h4 class="text-shadow">get in touch</h4>
+							<img src="img/shape.png" alt="">
+						</div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, eum laboriosam inventore ullam iusto, quia tempora repellat, impedit voluptas cumque officia maxime fugit eveniet praesentium id reprehenderit nostrum ad minima.</p>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col s12 m5 center-align">
+						<div>
+							<h5 class="text-uppercase text-shadow bold">Call me</h5>
+							<p class="margin10">+58 412 995 5252</p>
+						</div>
+						<div>
+							<h5 class="text-uppercase text-shadow bold">Email me</h5>
+							<p class="margin10">
+								alexander.sf0828@gmail.com
+  							</p>
+						</div>
+						<div>
+							<h5 class="text-uppercase text-shadow bold">Address</h5>
+							<p class="margin10">Caracas. Venezuela</p>
+						</div>
+					</div>
+    				<form class="col s12 m7 form">
+	      				<div class="row">
+	        				<div class="input-field col s6">
+	        					<i class="material-icons prefix">account_circle</i>
+	        					<input disabled value="" id="last_name" type="text">
+	        					<label for="disabled">Full name</label>
+	        				</div>
+	        				<div class="input-field col s6">
+	          					<i class="material-icons prefix">account_circle</i>
+	          					<input disabled value="" id="email" type="email" class="validate">
+	          					<label for="disabled" data-error="wrong" data-success="right">Email</label>
+	        				</div>
+	      				</div>
+	      				<div class="row">
+	        				<div class="input-field col s12">
+	          					<textarea disabled value="" id="textarea1" class="materialize-textarea" style="overflow: auto;"></textarea>
+          						<label for="disabled">Textarea</label>
+	        				</div>
+	      				</div>
+	      				<p class="center-align">
+                        <button class="waves-effect waves-light btn grey disabled" type="submit"><i class="material-icons right">send</i>enviar</button>
+                    </p>
+    				</form>
+  				</div>
+  			</div>
+		</section>
+	</main>	
+	
+
+	<footer class="page-footer color-2">
+		<div class="container">
+			<div class="row">
+				<div class="col s12 m6">
+					<h5 class="text-uppercase text-shadow bold">Navigation</h5>
+					<ul class="list-inline">
+						<li>
+							<a class="white-text text-uppercase" href="#about">about</a>
+						</li>
+						<li>
+							<a class="white-text text-uppercase" href="#portafolio">portafolio</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col s12 m6 right-align ssnn">
+					<h5 class="text-uppercase text-shadow bold">Social Network</h5>
+					<ul class="list-inline">
+		    			<li>
+							<a class="text-color-1">
+								<span class="fa-stack fa-2x">
+									<i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
+									<i class="fa fa-codepen fa-stack-1x fa-inverse" aria-hidden="true"></i>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a class="text-color-1">
+								<span class="fa-stack fa-2x">
+									<i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
+									<i class="fa fa-youtube fa-stack-1x fa-inverse" aria-hidden="true"></i>
+								</span>
+							</a>
+						</li>
+		    			<li>
+			   				<a class="text-color-1">
+			   					<span class="fa-stack fa-2x">
+			   						<i class="fa fa-circle fa-stack-2x"  aria-hidden="true"></i>
+			   						<i class="fa fa-github fa-stack-1x fa-inverse" aria-hidden="true"></i>
+			   					</span>
+			   				</a>
+		    			</li>
+		    			<li>
+							<a class="text-color-1">
+								<span class="fa-stack fa-2x">
+									<i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
+									<i class="fa fa-gitlab fa-stack-1x fa-inverse" aria-hidden="true"></i>
+								</span>
+							</a>
+						</li>
+		    		</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footer-copyright">
+			<div class="container center-align">
+				©Copyright 2017 <b class="text-uppercase">Alexander Sandoval</b>
+	   		</div>
+		</div>
+	</footer>
+	
+
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+	<script href="js/init.js"></script>
+
+	<script>$(document).ready(function(){
+		$(".page-loader").css( "display", "none")
+		$('.scrollspy').scrollSpy({
+			scrollOffset : 0,
+ 		    throttle : 100, //-> scrollspy throttling.
+		});
+    	$(".button-collapse").sideNav();
+    	$('.parallax').parallax();
+    	$('.close').click(function() {
+    		// Hide sideNav
+  			$('.button-collapse').sideNav('hide');
+    	});
+
+  	});
+	</script>
+
+</body>
+</html>
+
+
+
+<!-- To do:
+	*acomodar el preloader.
+-->
