@@ -36,8 +36,7 @@
 <body>
 
 	<header>
-
-		<!-- Preloader -->
+		<!-- Preloader 
 		<div class="page-loader">
 		  <div class="preloader-wrapper big active loader centrar-loader" >
 		    <div class="spinner-layer spinner-blue-only">
@@ -50,7 +49,7 @@
 		      </div>
 		    </div>
 		  </div>
-		</div>
+		</div> -->
 
 		<div class="menu-container">
 	  		<button href="#" data-activates="menu-main" class="button-collapse btn-floating btn-large waves-effect waves-light light rotate rotate180">
@@ -61,7 +60,7 @@
   		<ul id="menu-main" class="side-nav color-1">
 	    	<li id="info-page" class="z-depth-2">
 	    		<div class="userView" style="margin-bottom: 0px;">
-	    			<a href="#" class="close">
+	    			<a href="#start" class="close">
 	    				<img src="img/me.jpg" alt="" class="circle center-block">
 	   				</a>
   					<h5 class="user-name">
@@ -76,10 +75,10 @@
 	   		</li>
 
 	    	<li class="left-border-decoration" style="">
-	    		<a href="#about" class="close white-text text-uppercase"><b>about me</b></a>
+	    		<a href="#about" class="white-text text-uppercase"><b>about me</b></a>
 			</li>
 			<li class="left-border-decoration">
-				<a href="#portafolio" class="close white-text text-uppercase"><b>protafolio</b></a>
+				<a href="#portafolio" class="white-text text-uppercase"><b>protafolio</b></a>
 			</li>
 
 	    	<div class="menu-close">
@@ -93,7 +92,7 @@
 		    		<span class="text-uppercase text-shadow bold">Social Network</span>
 		    		<ul class="list-inline">
 		    			<li>
-							<a class="text-color-1">
+							<a href="https://codepen.io/suga0828/" target="_blank" class="text-color-1">
 								<span class="fa-stack fa-2x">
 									<i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
 									<i class="fa fa-codepen fa-stack-1x fa-inverse" aria-hidden="true"></i>
@@ -101,7 +100,7 @@
 							</a>
 						</li>
 						<li>
-							<a class="text-color-1">
+							<a href="https://youtube.com/user/Suga0828" target="_blank" class="text-color-1">
 								<span class="fa-stack fa-2x">
 									<i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
 									<i class="fa fa-youtube fa-stack-1x fa-inverse" aria-hidden="true"></i>
@@ -109,7 +108,7 @@
 							</a>
 						</li>
 		    			<li>
-			   				<a class="text-color-1">
+			   				<a href="https://github.com/suga0828" target="_blank" class="text-color-1">
 			   					<span class="fa-stack fa-2x">
 			   						<i class="fa fa-circle fa-stack-2x"  aria-hidden="true"></i>
 			   						<i class="fa fa-github fa-stack-1x fa-inverse" aria-hidden="true"></i>
@@ -117,7 +116,7 @@
 			   				</a>
 		    			</li>
 		    			<li>
-							<a class="text-color-1">
+							<a href="https://gitlab.com/suga0828" target="_blank" class="text-color-1">
 								<span class="fa-stack fa-2x">
 									<i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
 									<i class="fa fa-gitlab fa-stack-1x fa-inverse" aria-hidden="true"></i>
@@ -128,30 +127,30 @@
 	    		</div>
 	   		</div>
 	   		
-	   		<div class="menu-footer center-align">
+	   		<div class="menu-footer center-align ">
 	   				©Copyright 2017 <b class="text-white">Alexander Sandoval</b>
 	   		</div>
 	  	</ul>
-
 	</header>
 
 
 	<main>
-
 		<section id="start" class="scrollspy">
 			<div class="centrar-vertical landing-title">
 				<h1 class="center-align text-uppercase text-shadow">alexander sandoval</h1>
 				<h3 class="center-align text-uppercase text-shadow">front-end development</h3>
 			</div>
-			<div class="btn-start center-align animated zoomIn jump">
-				<a href="#about" class=""><img src="img/start.png" alt=""></a>
+			<div class="btn-start center-align animated bounce jump wow">
+				<a href="#about" class="">
+					<i class="fa fa-chevron-circle-down fa-fw" aria-hidden="true"></i>
+				</a>
 			</div>
 		</section>
 
-		<section id="about" class="color-2 scrollspy">
+		<section id="about" class="color-1 scrollspy">
 			<div class="container">
 				<div class="row">
-					<div class="landing-subtitle animated slideInUp">
+					<div class="landing-subtitle animated slideInUp wow">
 						<h4 class="text-shadow">about me</h4>
 						<img src="img/shape.png" alt="">
 					</div>				
@@ -159,59 +158,50 @@
 			</div>
 			<div class="container">
 				<div class="row">
-					<div class="col s12 m4 col-progress animated slideInLeft" style="padding-top: 2.5em;">
-						<div class="single-progress-bar">
-							<h4 class="text-uppercase">develoment - 80%</h4>
-							<div class="progress">
-								<div class="progress-bar determinate" style="width: 80%;"></div>
+					<div class="col s12 m5 col-progress animated slideInLeft wow">
+						<div class="row">
+							<div class="single-progress-bar">
+								<h4 class="text-uppercase">develoment - 80%</h4>
+								<div class="progress">
+									<div class="progress-bar determinate" style="width: 80%;"></div>
+								</div>
 							</div>
-						</div>
-						<div class="single-progress-bar">
-							<h4 class="text-uppercase">design - 65%</h4>
-							<div class="progress">
-								<div class="progress-bar determinate" style="width: 65%;"></div>
+							<div class="single-progress-bar">
+								<h4 class="text-uppercase">design - 65%</h4>
+								<div class="progress">
+									<div class="progress-bar determinate" style="width: 65%;"></div>
+								</div>
 							</div>
-						</div>
-						<div class="single-progress-bar">
-							<h4 class="text-uppercase">Back-End - 40%</h4>
-							<div class="progress">
-								<div class="progress-bar determinate" style="width: 40%;"></div>
+							<div class="single-progress-bar">
+								<h4 class="text-uppercase">Back-End - 45%</h4>
+								<div class="progress">
+									<div class="progress-bar determinate" style="width: 45%;"></div>
+								</div>
+							</div>
+							<div class="imac animated slideInLeft wow center-align">
+								<img src="img/responsive.png" alt="" width="500px" class="responsive-img">
 							</div>
 						</div>
 					</div>
-					<div class="col s12 offset-m1 m7 animated slideInRight">
-						<p class="justify" style="margin: 0;">
-							I'm a junior web development from Caracas, Venezuela. I has one (01) year of experience in development and web design. I taked some courses in <a class="bold" target="_blank" href="https://escuelaweb.net/">Escuela Web</a> and finished the <a target="_blank" class="italic" href="info/frontend-EscuelaWeb.pdf">'Curso de Diseño Web HTML5 y CSS3 desde cero'</a> and <a target="_blank" class="italic" href="info/Backend-EscuelaWeb.pdf">'Curso PHP | Desarrollo Web con Laravel'</a>. These are introduction courses in front-end and back-end development, respectively, but it has usefull for me because i learned fews of the most recent technicals and tools in the environment of web development.
-						</p>
+					<div class="col s12 offset-m1 m6 animated slideInRight wow">
+						<div class="row">
+							<p class="justify" style="margin: 0;">
+							My name is <a class="bold tooltipped" target="_blank" href="info/CV-en.pdf" data-position="top" data-delay="0" data-tooltip="Curriculum Vitae">Alexander Sandoval</a>. I'm a junior web development from Caracas, Venezuela. I has one (01) year of experience in development and web design. I taked some courses in <a class="bold" target="_blank" href="https://escuelaweb.net/">Escuela Web</a> and finished the <i>'Web Design Course HTML5 and CSS3 from scratch'</i> and <i>'PHP course | Web Development with Laravel'</i>. These are introduction courses in front-end and back-end development, respectively, but it has usefull for me because i learned fews of the most recent technicals and tools in the environment of web development.
+							</p>
+						</div>
 					</div>
 				</div>
 			</div>
-
-		
-			
-
-		
 		</section>
-
-		<div class="parallax-container">
-			<div class="parallax">
-				<img src="img/header_bg(3).jpeg" alt="">
-			</div>
-		</div>
-		<div class="container">
-			<div class="row" style="margin: 0px;height: 0px;">
-				<div class="col s12 m7">
-					<div class="imac">
-						<img src="img/device.png" alt="" width="500px" class="responsive-img">
-					</div>
-				</div>
-			</div>
-		</div>
 		
+		<section id="portafolio" class="scrollspy" style="padding: 0px">
+			<div class="parallax-container">
+      			<div class="parallax">
+      				<img src="img/glasses.jpeg">
+      			</div>
+    		</div>
 
-
-
-		<section id="portafolio" class="color-2 scrollspy">
+			<div class="portafolio">
 			<div class="container">
 				<div class="row">
 					<div class="landing-subtitle">
@@ -220,16 +210,13 @@
 					</div>
 				</div>
 			</div>
-
-
-
 	 		<div class="container-fluid">
 	            <div class="row">
 	                <div class="col s12 m12 l6 xl4 no-padding">
 	                    <div class="img-portafolio">
-	                        <img src="img/start-bg.png" alt="">
+	                        <img src="img/imgport1.png" alt="">
 	                        <div class="img-overlay">
-	                            <a href="">View Full Project</a>
+	                            <a href="https://suga0828.github.io/" target="_blank">View Full Project</a>
 	                            <h2>web page</h2>
 	                            <h4>front end design</h4>
 	                        </div>
@@ -237,17 +224,17 @@
 	                </div>
 	                <div class="col s12 m12 l6 xl4 no-padding">
 	                    <div class="img-portafolio">
-	                        <img src="img/start-bg.png" alt="">
+	                        <img src="img/imgport2.png" alt="">
 	                        <div class="img-overlay">
-	                            <a href="">View Full Project</a>
+	                            <a href="http://alexgmt.hol.es/" target="_blank">View Full Project</a>
 	                            <h2>web page</h2>
 	                            <h4>front end design</h4>
 	                        </div>
 	                    </div>
 	                </div>
-	                <div class="col s12 m12 l6 xl4 no-padding">
+	                <div class="col s12 m12 l6 xl4 no-padding" style="display: none;">
 	                    <div class="img-portafolio">
-	                        <img src="img/start-bg.png" alt="">
+	                        <img src="img/imgport1.png" alt="">
 	                        <div class="img-overlay">
 	                            <a href="">View Full Project</a>
 	                            <h2>web page</h2>
@@ -257,7 +244,7 @@
 	                </div>
 	            </div>
 	        </div>    
-
+			</div>	
 		</section>
 
 		<section id="contact" class="color-1 scrollspy">
@@ -337,7 +324,7 @@
 					<h5 class="text-uppercase text-shadow bold">Social Network</h5>
 					<ul class="list-inline">
 		    			<li>
-							<a class="text-color-1">
+							<a href="https://codepen.io/suga0828/" target="_blank" class="text-color-1">
 								<span class="fa-stack fa-2x">
 									<i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
 									<i class="fa fa-codepen fa-stack-1x fa-inverse" aria-hidden="true"></i>
@@ -345,7 +332,7 @@
 							</a>
 						</li>
 						<li>
-							<a class="text-color-1">
+							<a href="https://www.youtube.com/user/Suga0828" target="_blank" class="text-color-1">
 								<span class="fa-stack fa-2x">
 									<i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
 									<i class="fa fa-youtube fa-stack-1x fa-inverse" aria-hidden="true"></i>
@@ -353,7 +340,7 @@
 							</a>
 						</li>
 		    			<li>
-			   				<a class="text-color-1">
+			   				<a href="https://github.com/suga0828" target="_blank" class="text-color-1">
 			   					<span class="fa-stack fa-2x">
 			   						<i class="fa fa-circle fa-stack-2x"  aria-hidden="true"></i>
 			   						<i class="fa fa-github fa-stack-1x fa-inverse" aria-hidden="true"></i>
@@ -361,7 +348,7 @@
 			   				</a>
 		    			</li>
 		    			<li>
-							<a class="text-color-1">
+							<a href="https://gitlab.com/suga0828" target="_blank" class="text-color-1">
 								<span class="fa-stack fa-2x">
 									<i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
 									<i class="fa fa-gitlab fa-stack-1x fa-inverse" aria-hidden="true"></i>
@@ -384,6 +371,11 @@
     <script src="js/materialize.js"></script>
 	<script href="js/init.js"></script>
 
+	<script src="js/wow.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+
 	<script>$(document).ready(function(){
 		$(".page-loader").css( "display", "none")
 		$('.scrollspy').scrollSpy({
@@ -398,6 +390,15 @@
     	});
 
   	});
+	</script>
+	<script>
+		jQuery(document).ready(function() {
+	    var altura = jQuery(".portafolio").height() + 60;
+
+	    jQuery(".parallax-container").height(altura);
+	    jQuery(".portafolio").css("margin-top", -altura);
+
+});
 	</script>
 
 </body>
