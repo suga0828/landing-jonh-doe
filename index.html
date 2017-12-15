@@ -32,24 +32,20 @@
 	<!-- Own style -->
     <link rel="stylesheet" href="css/style.css">
 
+    <!-- Preloader Style -->
+    <link rel="stylesheet" href="css/main.css">
+
 </head>
 <body>
 
 	<header>
-		<!-- Preloader 
-		<div class="page-loader">
-		  <div class="preloader-wrapper big active loader centrar-loader" >
-		    <div class="spinner-layer spinner-blue-only">
-		      <div class="circle-clipper left">
-		        <div class="circle"></div>
-		      </div><div class="gap-patch">
-		        <div class="circle"></div>
-		      </div><div class="circle-clipper right">
-		        <div class="circle"></div>
-		      </div>
-		    </div>
-		  </div>
-		</div> -->
+		<!-- Preloader --> 
+		<div id="loader-wrapper">
+			<div id="loader"></div>
+
+			<div class="loader-section section-left"></div>
+			<div class="loader-section section-right"></div>
+		</div>
 
 		<div class="menu-container">
 	  		<button href="#" data-activates="menu-main" class="button-collapse btn-floating btn-large waves-effect waves-light light rotate rotate180">
@@ -57,7 +53,7 @@
 	  		</button>
   		</div>
 
-  		<ul id="menu-main" class="side-nav color-1">
+  		<ul id="menu-main" class="side-nav color-2">
 	    	<li id="info-page" class="z-depth-2">
 	    		<div class="userView" style="margin-bottom: 0px;">
 	    			<a href="#start" class="close">
@@ -68,7 +64,7 @@
   					</h5>
   					<h6 class="user-mail">
   						<a href="mailto:alexander.sf0828@gmail.com">
-  							<span class="text-shadow bold mailto">alexander.sf0828@gmail.com</span>
+  							<span class="text-shadow mailto">alexander.sf0828@gmail.com</span>
   						</a>
   					</h6>
   				</div>
@@ -87,12 +83,12 @@
 				</button>
 	    	</div>
 
-	    	<div class="menu-social-network color-2 z-depth-2">
+	    	<div class="menu-social-network z-depth-2">
 	    		<div class="social">
 		    		<span class="text-uppercase text-shadow bold">Social Network</span>
 		    		<ul class="list-inline">
 		    			<li>
-							<a href="https://codepen.io/suga0828/" target="_blank" class="text-color-1">
+							<a href="https://codepen.io/suga0828/" target="_blank" class="">
 								<span class="fa-stack fa-2x">
 									<i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
 									<i class="fa fa-codepen fa-stack-1x fa-inverse" aria-hidden="true"></i>
@@ -100,7 +96,7 @@
 							</a>
 						</li>
 						<li>
-							<a href="https://youtube.com/user/Suga0828" target="_blank" class="text-color-1">
+							<a href="https://youtube.com/user/Suga0828" target="_blank" class="">
 								<span class="fa-stack fa-2x">
 									<i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
 									<i class="fa fa-youtube fa-stack-1x fa-inverse" aria-hidden="true"></i>
@@ -108,7 +104,7 @@
 							</a>
 						</li>
 		    			<li>
-			   				<a href="https://github.com/suga0828" target="_blank" class="text-color-1">
+			   				<a href="https://github.com/suga0828" target="_blank" class="">
 			   					<span class="fa-stack fa-2x">
 			   						<i class="fa fa-circle fa-stack-2x"  aria-hidden="true"></i>
 			   						<i class="fa fa-github fa-stack-1x fa-inverse" aria-hidden="true"></i>
@@ -116,7 +112,7 @@
 			   				</a>
 		    			</li>
 		    			<li>
-							<a href="https://gitlab.com/suga0828" target="_blank" class="text-color-1">
+							<a href="https://gitlab.com/suga0828" target="_blank" class="">
 								<span class="fa-stack fa-2x">
 									<i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
 									<i class="fa fa-gitlab fa-stack-1x fa-inverse" aria-hidden="true"></i>
@@ -127,7 +123,7 @@
 	    		</div>
 	   		</div>
 	   		
-	   		<div class="menu-footer center-align ">
+	   		<div class="menu-footer center-align">
 	   				©Copyright 2017 <b class="text-white">Alexander Sandoval</b>
 	   		</div>
 	  	</ul>
@@ -136,9 +132,9 @@
 
 	<main>
 		<section id="start" class="scrollspy">
-			<div class="centrar-vertical landing-title">
-				<h1 class="center-align text-uppercase text-shadow">alexander sandoval</h1>
-				<h3 class="center-align text-uppercase text-shadow">front-end development</h3>
+			<div class="centrar-vertical">
+				<h1 class="text-shadow landing-title">alexander sandoval</h1>
+				<h2 class="text-shadow landing-subtitle">front-end development</h2>
 			</div>
 			<div class="btn-start center-align animated bounce jump wow">
 				<a href="#about" class="">
@@ -147,11 +143,12 @@
 			</div>
 		</section>
 
-		<section id="about" class="color-1 scrollspy">
+		<section id="about" class="scrollspy color-2">
 			<div class="container">
 				<div class="row">
 					<div class="landing-subtitle animated slideInUp wow">
 						<h4 class="text-shadow">about me</h4>
+						<br>
 						<img src="img/shape.png" alt="">
 					</div>				
 				</div>
@@ -161,21 +158,21 @@
 					<div class="col s12 m5 col-progress animated slideInLeft wow">
 						<div class="row">
 							<div class="single-progress-bar">
-								<h4 class="text-uppercase">develoment - 80%</h4>
+								<h4 class="text-uppercase">develoment - 90%</h4>
+								<div class="progress">
+									<div class="progress-bar determinate" style="width: 90%;"></div>
+								</div>
+							</div>
+							<div class="single-progress-bar">
+								<h4 class="text-uppercase">design - 80%</h4>
 								<div class="progress">
 									<div class="progress-bar determinate" style="width: 80%;"></div>
 								</div>
 							</div>
 							<div class="single-progress-bar">
-								<h4 class="text-uppercase">design - 65%</h4>
+								<h4 class="text-uppercase">Back-End - 65%</h4>
 								<div class="progress">
 									<div class="progress-bar determinate" style="width: 65%;"></div>
-								</div>
-							</div>
-							<div class="single-progress-bar">
-								<h4 class="text-uppercase">Back-End - 45%</h4>
-								<div class="progress">
-									<div class="progress-bar determinate" style="width: 45%;"></div>
 								</div>
 							</div>
 							<div class="imac animated slideInLeft wow center-align">
@@ -185,7 +182,7 @@
 					</div>
 					<div class="col s12 offset-m1 m6 animated slideInRight wow">
 						<div class="row">
-							<p class="justify" style="margin: 0;">
+							<p class="" style="margin: 0;">
 							My name is <a class="bold tooltipped" target="_blank" href="info/CV-en.pdf" data-position="top" data-delay="0" data-tooltip="Curriculum Vitae">Alexander Sandoval</a>. I'm a junior web development from Caracas, Venezuela. I has one (01) year of experience in development and web design. I taked some courses in <a class="bold" target="_blank" href="https://escuelaweb.net/">Escuela Web</a> and finished the <i>'Web Design Course HTML5 and CSS3 from scratch'</i> and <i>'PHP course | Web Development with Laravel'</i>. These are introduction courses in front-end and back-end development, respectively, but it has usefull for me because i learned fews of the most recent technicals and tools in the environment of web development.
 							</p>
 						</div>
@@ -206,6 +203,7 @@
 				<div class="row">
 					<div class="landing-subtitle">
 						<h4 class="text-shadow">latest work</h4>
+						<br>
 						<img src="img/shape.png" alt="">
 					</div>
 				</div>
@@ -247,57 +245,43 @@
 			</div>	
 		</section>
 
-		<section id="contact" class="color-1 scrollspy">
+		<section id="contact" class="scrollspy color-2">
 			<div class="container">
 				<div class="row">
-					<div class="col s12">
+					<div class="col s10 offset-s1">
 						<div class="landing-subtitle">
 							<h4 class="text-shadow">get in touch</h4>
+							<br>
 							<img src="img/shape.png" alt="">
 						</div>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, eum laboriosam inventore ullam iusto, quia tempora repellat, impedit voluptas cumque officia maxime fugit eveniet praesentium id reprehenderit nostrum ad minima.</p>
+						<p>Write me in the contact form to request your solicitude, or if you want more information, ask me without any commitment. I will be happy to assist you.</p>
 					</div>
 				</div>
 			</div>
 			<div class="container">
 				<div class="row">
-					<div class="col s12 m5 center-align">
-						<div>
-							<h5 class="text-uppercase text-shadow bold">Call me</h5>
-							<p class="margin10">+58 412 995 5252</p>
-						</div>
-						<div>
-							<h5 class="text-uppercase text-shadow bold">Email me</h5>
-							<p class="margin10">
-								alexander.sf0828@gmail.com
-  							</p>
-						</div>
-						<div>
-							<h5 class="text-uppercase text-shadow bold">Address</h5>
-							<p class="margin10">Caracas. Venezuela</p>
-						</div>
-					</div>
-    				<form class="col s12 m7 form">
+    				<form class="col s10 offset-s1 form" name="form" method="POST" action="sendbymail.php">
 	      				<div class="row">
 	        				<div class="input-field col s6">
 	        					<i class="material-icons prefix">account_circle</i>
-	        					<input disabled value="" id="last_name" type="text">
-	        					<label for="disabled">Full name</label>
+	        					<input id="name" type="text">
+	        					<label for="name">Full name</label>
 	        				</div>
 	        				<div class="input-field col s6">
 	          					<i class="material-icons prefix">account_circle</i>
-	          					<input disabled value="" id="email" type="email" class="validate">
-	          					<label for="disabled" data-error="wrong" data-success="right">Email</label>
+	          					<input id="email" type="email" class="validate">
+	          					<label for="email" data-error="wrong" data-success="right">Email</label>
 	        				</div>
 	      				</div>
 	      				<div class="row">
 	        				<div class="input-field col s12">
-	          					<textarea disabled value="" id="textarea1" class="materialize-textarea" style="overflow: auto;"></textarea>
-          						<label for="disabled">Textarea</label>
+	          					<i class="material-icons prefix">mode_edit</i>
+	          					<textarea id="message" type="text" class="materialize-textarea" style="overflow: auto;"></textarea>
+          						<label for="message">Message</label>
 	        				</div>
 	      				</div>
 	      				<p class="center-align">
-                        <button class="waves-effect waves-light btn grey disabled" type="submit"><i class="material-icons right">send</i>enviar</button>
+                        <button disabled class="waves-effect waves-light btn light" type="submit"><i class="material-icons right">send</i>enviar</button>
                     </p>
     				</form>
   				</div>
@@ -306,7 +290,7 @@
 	</main>	
 	
 
-	<footer class="page-footer color-2">
+	<footer class="page-footer">
 		<div class="container">
 			<div class="row">
 				<div class="col s12 m6">
@@ -324,7 +308,7 @@
 					<h5 class="text-uppercase text-shadow bold">Social Network</h5>
 					<ul class="list-inline">
 		    			<li>
-							<a href="https://codepen.io/suga0828/" target="_blank" class="text-color-1">
+							<a href="https://codepen.io/suga0828/" target="_blank" class="waves-effect waves-light">
 								<span class="fa-stack fa-2x">
 									<i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
 									<i class="fa fa-codepen fa-stack-1x fa-inverse" aria-hidden="true"></i>
@@ -332,7 +316,7 @@
 							</a>
 						</li>
 						<li>
-							<a href="https://www.youtube.com/user/Suga0828" target="_blank" class="text-color-1">
+							<a href="https://www.youtube.com/user/Suga0828" target="_blank" class="waves-effect waves-light">
 								<span class="fa-stack fa-2x">
 									<i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
 									<i class="fa fa-youtube fa-stack-1x fa-inverse" aria-hidden="true"></i>
@@ -340,7 +324,7 @@
 							</a>
 						</li>
 		    			<li>
-			   				<a href="https://github.com/suga0828" target="_blank" class="text-color-1">
+			   				<a href="https://github.com/suga0828" target="_blank" class="waves-effect waves-light">
 			   					<span class="fa-stack fa-2x">
 			   						<i class="fa fa-circle fa-stack-2x"  aria-hidden="true"></i>
 			   						<i class="fa fa-github fa-stack-1x fa-inverse" aria-hidden="true"></i>
@@ -348,7 +332,7 @@
 			   				</a>
 		    			</li>
 		    			<li>
-							<a href="https://gitlab.com/suga0828" target="_blank" class="text-color-1">
+							<a href="https://gitlab.com/suga0828" target="_blank" class="waves-effect waves-light">
 								<span class="fa-stack fa-2x">
 									<i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
 									<i class="fa fa-gitlab fa-stack-1x fa-inverse" aria-hidden="true"></i>
@@ -367,45 +351,11 @@
 	</footer>
 	
 
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="js/materialize.js"></script>
-	<script href="js/init.js"></script>
-
+    <script src="js/jquery.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+	<script src="js/init.js"></script>
 	<script src="js/wow.js"></script>
-              <script>
-              new WOW().init();
-              </script>
-
-	<script>$(document).ready(function(){
-		$(".page-loader").css( "display", "none")
-		$('.scrollspy').scrollSpy({
-			scrollOffset : 0,
- 		    throttle : 100, //-> scrollspy throttling.
-		});
-    	$(".button-collapse").sideNav();
-    	$('.parallax').parallax();
-    	$('.close').click(function() {
-    		// Hide sideNav
-  			$('.button-collapse').sideNav('hide');
-    	});
-
-  	});
-	</script>
-	<script>
-		jQuery(document).ready(function() {
-	    var altura = jQuery(".portafolio").height() + 60;
-
-	    jQuery(".parallax-container").height(altura);
-	    jQuery(".portafolio").css("margin-top", -altura);
-
-});
-	</script>
-
+	
+	<script src="js/main.js"></script>
 </body>
 </html>
-
-
-
-<!-- To do:
-	*acomodar el preloader.
--->
