@@ -11,7 +11,14 @@ $(document).ready(function(){
   			$('.button-collapse').sideNav('hide');
     	});
 
-  	});
+      setTimeout( () => {
+        swal({
+          type: 'info',
+          title: 'This page is currently being updated',
+          text: 'Please wait for it'
+        })}, 3000)
+
+});
 
 new WOW().init();
 
