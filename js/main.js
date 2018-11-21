@@ -13,10 +13,10 @@ $(document).ready(function(){
 
       setTimeout( () => {
         swal({
-          type: 'info',
+          type: 'error',
           title: 'This page is currently being updated',
-          text: 'Please wait for it'
-        })}, 3000)
+          footer: '<a href="https://suga0828.github.io/suga0828">Do you want view a preview?</a>'
+        })}, 2000)
 
 });
 
