@@ -11,13 +11,6 @@ $(document).ready(function(){
   			$('.button-collapse').sideNav('hide');
     	});
 
-      setTimeout( () => {
-        swal({
-          type: 'error',
-          title: 'This page is currently being updated',
-          footer: '<a href="https://suga0828.github.io/suga0828">Do you want view a preview?</a>'
-        })}, 2000)
-
 });
 
 new WOW().init();
